@@ -1,0 +1,22 @@
+/*  Styling Plan*/
+
+.startButton button {
+    color:mediumseagreen;
+    border-radius: 10px;
+    background-color: darkgrey;
+    padding: 20px 30px;
+
+}
+
+.startButton button :hover {
+    background-color: black;
+    color: brown ;
+}
+
+.intro {
+    align-items: center;
+    display: flex;
+
+}
+/*  
+*/

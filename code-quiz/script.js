@@ -62,9 +62,7 @@ function iterate(number) {
       if(secondsLeft === 0) {
         clearInterval(timerInterval);
         sendMessage();
-      }
-    }, 1000);
-  }
+      
 
 
   //write the question
@@ -102,19 +100,19 @@ function iterate(number) {
     iterate(number);
     console.log(number);
   }
-  if (option2.value == "true"){
+  else if (option2.value == "true"){
     selected = "Correct!"
     number++;
     iterate(number);
     console.log(number);
   }
-  if (option3.value == "true"){
+  else if (option3.value == "true"){
     selected = "Correct!"
     number++;
     iterate(number);
     console.log(number);
   }
-  if (option4.value == "true"){
+  else if (option4.value == "true"){
     selected = "Correct!"
     number++;
     iterate(number);
@@ -132,6 +130,10 @@ function iterate(number) {
  })
 
 
+//closing bracket of time function
+}
+}, 1000);
+}
 
 }
 
